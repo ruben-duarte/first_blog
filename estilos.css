@@ -38,7 +38,6 @@ body {
 
 .agrupar {
     background: #f7f7f7;
-    border: 1px solid black;
     width: 960px;
     margin: 35px auto;
     border-radius: 8px;
@@ -62,7 +61,6 @@ body {
 .seccion {
     margin: 20px;
     width: 60%;
-    border: 1px solid black;
     float: left;
 }
 
@@ -71,6 +69,14 @@ article {
     border: 1px solid #f7f7f7;
     padding: 20px;
     margin-bottom: 15px;
+}
+
+article p {
+    text-align: justify;
+}
+
+article h2 {
+    margin-bottom: 10px;
 }
 
 article footer {
@@ -90,11 +96,34 @@ time {
     margin: 20px 0;
 }
 
-.columna blockquote {
-    border: 1px solid black;
+.columna section {    
     padding: 40px;
-    background: #fdcb6e;
+    background: #d9eaf8;
     margin-bottom: 20px;
+}
+
+.columna section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.columna .fechas li  {
+    list-style: none;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.columna .fechas li a {
+    text-decoration: none;
+    color: #40739e;
+}
+
+.columna section a{
+    text-decoration: none;
+    color: #40739e;
+    
 }
 
 .pie {
